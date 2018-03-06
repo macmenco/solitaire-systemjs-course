@@ -24,8 +24,8 @@
     "prestart": "npm install",
     "start": "http-server -c-1 -o",
     "pretest": "npm install",
-    "test": "karma start karma.conf.js",
-    "test-single-run": "karma start karma.conf.js --single-run",
-    "test-chrome": "karma start karma.conf.js --single-run --browsers Chrome"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "test-single-run": "./node_modules/karma/bin/karma start karma.conf.js --single-run",
+    "test-chrome": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers Chrome"
   }
 }
